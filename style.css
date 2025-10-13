@@ -68,6 +68,7 @@ body {
 .logo {
     padding: 1vh 1vh;
     width: 15vh;
+    background-color: rgb(56, 56, 56);
 }
 
 header {
@@ -90,6 +91,10 @@ header {
 .header-links a:hover{
     transform: translateY(-0.5vh);
     text-shadow: 0.5vh 0.5vh 0.5vh black;
+}
+.header-links a:active{
+    transform: translateY(0);
+    text-shadow: none;
 }
 
 .intro {
